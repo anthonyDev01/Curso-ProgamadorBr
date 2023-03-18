@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            position: relative;
+            width: 640px;
+            height: 360px;
+
+
+        }
+
+        video{
+            width: 100%;
+            
+        }
+
+        .control{
+            
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            text-align: center;
+        }
+        .btn{
+            
+            width: 60px;
+            padding: 10px;
+            position: relative;
+            top: 100%;
+            transform: translateY(-100%);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <video id="video" src="imagens/Tipo Gogeta 🌌 Ft. PTK (Dragon Ball) _ Style Trap _ Prod. Kabeh _ MHRAP.mp4" poster="imagens/tamb.png"></video>
+
+        <div id ="control">
+            <img class="btn" src="imagens/play.png.png" alt="" onclick="play()">
+
+            <img class="btn" src="imagens/pause.png.png" alt="" onclick="pause()">
+
+            <img class="btn" src="imagens/+15s.npg.png" alt=""onclick="avancar()">
+
+            <img class="btn" src="imagens/-15s.png.png" alt=""onclick="retroceder()">
+
+            <img class="btn" src="imagens/diminuir.png" alt=""onclick="diminuir()">
+
+            <img class="btn" src="imagens/aumentar.png" alt="" onclick="aumentar()">
+        </div>
+    </div>
+    
+    <script>
+
+        let video = document.getElementById("video")
+
+        let control = document.getElementById("control")
+
+        control.addEventListener("mouseout", function(){
+            control.style.opacity = "0"
+        })
+
+        control.addEventListener("mouseover", function(){
+            control.style.opacity = "0.9"
+        })
+
+        function play(){
+            video.play()
+        }
+
+        function pause(){
+            video.pause()
+        }
+
+        function avancar(){
+            video.currentTime += 15
+        }
+
+        function retroceder(){
+            video.currentTime -= 15
+        }
+
+        function diminuir(){
+            video.playbackRate -= 0.1
+        }
+
+        function aumentar(){
+            video.playbackRate += 0.1
+        }
+
+    </script>
+
+
+</body>
+</html>
