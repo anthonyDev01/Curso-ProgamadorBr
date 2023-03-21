@@ -1,0 +1,79 @@
+#principal{
+
+}
+
+#titulo{
+	color: rgb(0, 170, 200 );
+}
+
+.texto_verde{
+	color: green;
+}
+
+#paragrafos {
+	/*
+	background-color: red;
+	*/
+}
+
+.subDiv{
+	/*
+	background-color: yellow;
+	*/
+}
+
+#cm{
+	background-color: blue;
+	width: 1cm;
+	height: 1cm;
+}
+
+#mm{
+	background-color: red;
+	width: 1mm;
+	height: 1mm;
+}
+
+#in{
+	background-color: green;
+	width: 1in;
+	height: 1in;
+}
+
+#px{
+	background-color: yellow;
+	width: 10px;
+	height: 10px;
+}
+
+#pt{
+	background-color: #9400D3;
+	width: 10pt;
+	height: 10pt;
+}
+
+
+#pc{
+	background-color: #FFA500;
+	width: 1pc;
+	height: 1pc;
+	/*um pc é igual a 12 px*/
+}
+
+.container{
+	width:50vmax;
+	background-color: red;
+
+
+}
+
+.inside{
+	width: 100%;
+	background-color: blue;
+	
+
+
+}
+
+
+

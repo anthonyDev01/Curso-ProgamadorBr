@@ -1,0 +1,48 @@
+body{
+	padding: 0;
+	margin: 0;
+	font: normal 18pt Arial;
+}
+
+#quadrado{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	border:10px solid yellow;
+	padding: 10px;
+
+	box-sizing: border-box;
+
+}
+
+#quadrado2{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	
+}
+
+.container{
+	background-color: #ddd;
+	margin: 10px;
+	padding: 10px;
+	border: 10px solid green;
+}
+
+.conteudo{
+	background-color: red;
+	padding: 10px;
+	border:10px solid blue;
+}
+
+#login{
+	background-color: black;
+	color: #ffffff;
+	width: 120px;
+	text-align: center;
+	border:7px solid blue;
+	border-radius: 30px;
+	margin:20px;
+
+
+}

@@ -1,0 +1,38 @@
+#principal{
+
+}
+
+#titulo{
+	color: rgb(0, 170, 200 );
+}
+
+.texto_verde{
+	color: green;
+}
+
+#paragrafos {
+	/*
+	background-color: red;
+	*/
+}
+
+.subDiv{
+	/*
+	background-color: yellow;
+	*/
+}
+
+
+
+#base{
+	height: 10px;
+	background-color: red
+}
+
+#conteudo{
+	background-color: blue;
+	color: white;
+	margin: 10px;
+}
+
+

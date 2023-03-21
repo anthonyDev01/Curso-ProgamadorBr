@@ -1,0 +1,46 @@
+body{
+	font-size: 20pt;
+	background-color: antiquewhite;
+	
+}
+
+#conteudo{
+	background-image: url(imagens/backgorund.png);  
+	background-repeat: no-repeat;
+	height: 400px;
+	
+}
+
+h1{
+	font-family: 'Itim', cursive;
+}
+
+.links{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-family: cursive;
+
+}
+
+.links:hover{
+	text-decoration: underline;
+	width: 30px;
+}
+
+
+#instagran{
+	list-style-image: url(imagens/Insta.png);
+
+}
+
+#twiter{
+	list-style-image: url(imagens/Twitter.png);
+
+
+}
+#youtube{
+	list-style-image: url(imagens/Youtube.png);
+
+}
+

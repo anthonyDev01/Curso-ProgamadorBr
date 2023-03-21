@@ -1,0 +1,32 @@
+ul{
+	list-style-image: url(../imagens/mini_zoro.png);
+	list-style-position: inside;
+	margin: 0;
+	padding: 10px;
+
+	background-color: #FFB6C1;
+}
+
+li{
+	border:1px solid;
+	background-color: yellow;
+	margin: 5px;
+	padding: 5px;
+
+
+}
+
+ol{
+	list-style-type: upper-alpha;
+	margin: 0;
+	padding: 10px;
+	background-color: #20B2AA;
+	list-style-position: inside;
+	list-style-type: 
+
+}
+.link{
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
