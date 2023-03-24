@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+
+    <style>
+        body{
+            font-size: 1.2rem;
+        }
+
+        .static{
+            position: static;
+
+        }
+        
+        .relative{
+            position: relative;
+            top: 100px;
+            left: 600px;
+            
+            
+        }
+
+        .fixed{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+           
+        }
+
+        .absolute{
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            
+
+        }
+
+        .quadrado{
+            width: 100px;
+            height: 100px;
+            
+            
+        }
+
+        .ret{
+            width: 100px;
+            height: 500px;
+            margin-top: 10px;
+
+        }
+
+        .bg-red{
+            background-color: red;
+            
+        }
+        .bg-blue{
+            background-color: blue;
+            
+        }
+        
+        .bg-green{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="static quadrado bg-blue">
+    </div>
+
+    
+    <div class="relative quadrado bg-red">
+    </div>
+
+    <div class="absolute quadrado bg-green">
+    </div>
+
+
+</body>
+</html>
