@@ -1,0 +1,52 @@
+/*no caso pegas todos os p de header  */
+/* #head p{
+    background-color: green;
+} */
+
+
+/* no caso praga os p que sao "filhos de 1º grau" de header */
+/* #head > p{
+    background-color: green;
+} */
+
+
+
+/*no caso vai pegar o primeiro p que sucede o header */
+/* #head + p{
+    background-color: green;
+} */
+
+
+/*no caso vai pegar todos os p que vem sucedem o header*/
+/* header ~ p{
+    background-color: green;
+} */
+
+/* vai selecionar o atributo, pode ser especificado ex: [width="500"] */
+/* [width="500"]{
+    background-color: green;
+} */
+
+
+/*no caso vai pegar todos os title que tenham a palavra titulo no valor*/
+/* [title~="titulo"]{
+    background-color: red;
+} */
+
+
+/*no caso pegar todos os title que começe com letra t no valor*/
+/* [title^="t"]{
+    background-color: yellow;
+} */
+
+
+/*no caso vai pegar todos os title que terminam com 1 no valor*/
+[title$="1"]{
+    background-color: blue;
+}
+
+
+/*no caso vai pegar todos os title que tenha "tu" no valor */
+[title*="tu"]{
+    background-color: cornflowerblue;
+}

@@ -1,0 +1,41 @@
+p::first-letter{
+    color: red;
+    font-size: 5rem;
+
+}
+
+p::first-line{
+    color: blue;
+}
+
+li{
+    list-style: none;
+
+}
+
+li::before{
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(imagens/zoro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center ;
+}
+
+/* li::after{
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(imagens/zoro.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center ;
+} */
+
+p::selection{
+    background-color: yellow;
+    color: orange;
+}

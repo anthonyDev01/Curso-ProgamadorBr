@@ -1,0 +1,18 @@
+/* rotaciona a imagem */
+/* img{
+    width: 420px;
+    transform: rotate(45deg);
+} */
+
+/* modifica a imagem tanto na horizontal quanto na vertical, se passar dois valores podem ser modificados separadamente */
+/* img{
+    width: 420px;
+    transform: scale(0.5, 1);
+}  */
+
+
+/* intorta a imagem */
+img{
+    width: 420px;
+    transform: skew(30deg, 30deg);
+}

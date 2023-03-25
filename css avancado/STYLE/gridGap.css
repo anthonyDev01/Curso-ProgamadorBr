@@ -1,0 +1,24 @@
+.container{
+    color: white;
+    display: grid;
+    padding: 10px;
+    background-color: grey;
+
+   grid-template: 100px 100px/ 1fr 2fr 1fr ;
+   gap: 10px;
+
+}
+
+.r1{
+    background-color: red;
+
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+

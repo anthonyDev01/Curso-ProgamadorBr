@@ -1,0 +1,54 @@
+input:focus{
+    color:red;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* vai modificar o primeiro filho do elemento */
+/* li:first-child{
+    color: blue;
+} */
+
+/* no caso vai modificar o primeiro elemento do tipo li */
+/* li:first-of-type{
+    color: blue;
+} */
+
+/* tem a funcionalidade parecida com o first-child, mas pode definir qual filho sera alterado */
+/* li:nth-child(2){
+    color: blue;
+} */
+
+/* mesma cois que o nth-child, mas so que é com o type */
+/* li:nth-of-type(3){
+    color: blue;
+} */
+
+/* mesmo processo do nth-child so que de tras pra frente */
+/* li:nth-last-child(2){
+    color: blue;
+} */
+
+/* mesmo processo do nth-of-type so que de tras pra frente */
+/* li:nth-last-of-type(1){
+    color: blue;
+} */
+
+/* pega os impar */
+li:nth-of-type(odd){
+    background-color: bisque;
+}
+
+/* pega os par */
+li:nth-of-type(even){
+    background-color: grey;
+    color: white;
+}
