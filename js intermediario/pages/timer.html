@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>TEXTO</h1>
+
+    <input onclick="iniciar()" type="submit" value="INICIAR">
+
+    <input onclick="parar()" type="submit" value="PARAR">
+
+    <script>
+        var numero = 0 
+
+        var inicio
+
+        function autualizarText(){
+
+            let h1 = document.getElementsByTagName("h1")[0]
+
+            h1.innerHTML += " " + numero
+            numero++
+        }
+
+        function iniciar(){
+           
+            inicio = setInterval(autualizarText, 19)
+        }
+
+        function parar(){
+            clearInterval(inicio)
+        }
+    </script>
+</body>
+</html>

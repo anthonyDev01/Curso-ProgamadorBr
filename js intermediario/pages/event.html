@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function p(){
+            console.log("oaaoko");
+            console.log(this)
+        }
+    </script>
+</head>
+<body>
+    
+    <h1 onclick="p()" id="p">Title</h1>
+    
+    <script>
+        let h1 = document.getElementsByTagName("h1")[0]
+
+        h1.addEventListener('click', p1)
+
+        function p(e){
+            console.log("teste 1");
+            console.log(e);
+        }
+
+
+        function p1(e){
+            console.log("teste 2")
+            console.log(e.target);
+            
+        }
+    </script>
+</body>
+</html>
